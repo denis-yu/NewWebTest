@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_pytest1",
+    "children" : [ {
+      "name" : "test_01",
+      "uid" : "b2fb893251058be1",
+      "parentUid" : "27bbc9fe867c9558a6897013968bb899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591352105680,
+        "stop" : 1591352105680,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_02",
+      "uid" : "5a86c02192f6260c",
+      "parentUid" : "27bbc9fe867c9558a6897013968bb899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591352105684,
+        "stop" : 1591352105684,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "27bbc9fe867c9558a6897013968bb899"
+  }, {
+    "name" : "test_comparePlanDetail",
+    "children" : [ {
+      "name" : "TestMedicarePlanDetail",
+      "children" : [ {
+        "name" : "test_medicare",
+        "uid" : "b71dfa701aa81f13",
+        "parentUid" : "567475c9ec6a52ce597d21ff46d2da51",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591612682231,
+          "stop" : 1591612792279,
+          "duration" : 110048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "567475c9ec6a52ce597d21ff46d2da51"
+    } ],
+    "uid" : "a5969b5d7d1de1c627b17aad94ec3c5e"
+  } ]
+}

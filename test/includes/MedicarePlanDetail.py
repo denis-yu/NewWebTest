@@ -21,9 +21,9 @@ df_obj.head()
 class testMedicarePlanDetail():
     def setup_method(self, method):
         # self.driver = webdriver.Remote(command_executor='http://localhost:4444/wd/hub', desired_capabilities=DesiredCapabilities.FIREFOX)
-        # self.driver = webdriver.Chrome(executable_path='../../driver/chromedriver')
+        self.driver = webdriver.Chrome(executable_path='../../driver/chromedriver')
         # self.driver = webdriver.Firefox()
-        self.driver = webdriver.Chrome()
+        # self.driver = webdriver.Chrome()
         print("start the browser...")
         self.vars = {}
 

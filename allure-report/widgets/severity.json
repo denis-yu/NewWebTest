@@ -1,0 +1,21 @@
+[ {
+  "uid" : "32104247f1c53434",
+  "name" : "test_medicarecensus",
+  "time" : {
+    "start" : 1592392402000,
+    "stop" : 1592392419968,
+    "duration" : 17968
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e901fae8f97eccff",
+  "name" : "test_openmedicaresite",
+  "time" : {
+    "start" : 1592392369275,
+    "stop" : 1592392401996,
+    "duration" : 32721
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

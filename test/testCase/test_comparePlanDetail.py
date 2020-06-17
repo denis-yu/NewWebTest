@@ -23,11 +23,12 @@ class TestMedicarePlanDetail():
     def teardown_method(self, method):
         self.driver.quit()
 
+    @allure.story('visit home')
     def test_medicare(self):
         # Step # | name | target | value
 
-        @allure.step(title='go to home')
         # 1 | open | / |
+
         self.driver.get("https://sunmaker.medicare.healthinsurance.com")
         # 2 | setWindowSize | 1440x900 |
         self.driver.set_window_size(1440, 900)
@@ -37,38 +38,37 @@ class TestMedicarePlanDetail():
         self.driver.implicitly_wait(60)
         self.driver.find_element(By.NAME, "census.location.zip").click()
         # 5 | type | name=census.location.zip | 30301
+        time.sleep(5)
         self.driver.find_element(By.NAME, "census.location.zip").send_keys("30301")
         # 6 | click | xpath=//div[@id='__next']/div[2]/div/div/div[2]/div |
         self.driver.implicitly_wait(60)
         time.sleep(5)
 
+        with allure.step(title='open quote page'):
+            self.driver.find_element(By.XPATH, "//div[@id=\'__next\']/div[2]/div/div/div[2]/div").click()
+            # 7 | click | xpath=//div[@id='__next']/div[2]/div/div/div[2]/div/div/form/div/div[2]/button |
+            self.driver.find_element(By.XPATH,
+                                     "//div[@id=\'__next\']/div[2]/div/div/div[2]/div/div/form/div/div[2]/button").click()
+            # 8 | click | linkText=See Plan Details |
+            self.driver.find_element(By.LINK_TEXT, "See Plan Details").click()
+            self.driver.implicitly_wait(60)
 
-        @allure.step(title='open quote page')
-        self.driver.find_element(By.XPATH, "//div[@id=\'__next\']/div[2]/div/div/div[2]/div").click()
-        # 7 | click | xpath=//div[@id='__next']/div[2]/div/div/div[2]/div/div/form/div/div[2]/button |
-        self.driver.find_element(By.XPATH,
-                                 "//div[@id=\'__next\']/div[2]/div/div/div[2]/div/div/form/div/div[2]/button").click()
-        # 8 | click | linkText=See Plan Details |
-        self.driver.find_element(By.LINK_TEXT, "See Plan Details").click()
-        self.driver.implicitly_wait(60)
+        with allure.step(title='open plan detail page'):
+            # 9 | verifyElementPresent | linkText=« Back to Medicare Advantage Plans |
 
+            elements = self.driver.find_elements(By.LINK_TEXT, "« Back to Medicare Advantage Plans")
+            assert len(elements) > 0
+            sectionCount = self.driver.find_elements(By.XPATH, "//div[@id=\'__next\']/div[3]/div[5]/div/div")
+            # print("sectionCount is", len(sectionCount))
 
-        @allure.step(title='open plan detail page')
-        # 9 | verifyElementPresent | linkText=« Back to Medicare Advantage Plans |
-        elements = self.driver.find_elements(By.LINK_TEXT, "« Back to Medicare Advantage Plans")
-        assert len(elements) > 0
-        sectionCount = self.driver.find_elements(By.XPATH, "//div[@id=\'__next\']/div[3]/div[5]/div/div")
-        # print("sectionCount is", len(sectionCount))
-
-        count = len(sectionCount)
-        for i in range(count):
-            j = str(i + 1)
+            count = len(sectionCount)
+            for i in range(count):
+                j = str(i + 1)
             df_obj.iloc[i, 4] = self.driver.find_element(By.XPATH,
                                                          "//div[@id=\'__next\']/div[3]/div[5]/div/div[" + j + "]/div/div").text
             df_obj.iloc[i, 5] = self.driver.find_element(By.XPATH,
                                                          "//div[@id=\'__next\']/div[3]/div[5]/div/div[" + j + "]/div/div[2]/strong").text
-        df_obj.to_csv(filename, index=False)
-
+            df_obj.to_csv(filename, index=False)
 
 
 if __name__ == '__main__':
@@ -77,4 +77,4 @@ if __name__ == '__main__':
     newMedicare.test_medicare()
     newMedicare.teardown_method("chrome")
     now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
-    pytest.main("-s -q test_comparePlanDetail.py  --alluredir report-{0}".format(now))
+    pytest.main("-s -q test_comparePlanDetail.py  --alluredir result".format(now))

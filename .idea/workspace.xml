@@ -2,13 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f632cdb0-de16-4613-b3ab-2d3b90432320" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/NewWebTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewWebTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/comparePlanDetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/includes/comparePlanDetail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/multiprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/includes/multiprocess.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/multithread.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/includes/multithread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/testPytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/includes/testPytest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/updateTestCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/includes/updateTestCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/inspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/inspect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/readconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/readconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/readelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/readelement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/04-21-2020.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/04-22-2020.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/04-24-2020.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver_mac64.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/webpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/webpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_element/medicarecensus.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/page_element/medicarecensus.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_element/search.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/page_element/search.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/medicare_censuspage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/medicare_censuspage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object/searchpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/searchpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Medicare/test_ceneus.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/Medicare/test_ceneus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/Medicare/test_medicareCensusPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/includes/Medicare/test_medicareCensusPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/MedicarePlanDetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/includes/MedicarePlanDetail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/includes/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/startDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/includes/startDriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/code/cau.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testCase/code/cau.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/code/test_conver.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testCase/code/test_conver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testCase/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/test_pytest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testCase/test_pytest1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/send_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/send_mail.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,65 +43,119 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_medicareCensus2_py.coverage" NAME="pytest in medicareCensus2.py Coverage Results" MODIFIED="1587984248378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_medicareCensus2_test_medicareCensus.coverage" NAME="pytest for medicareCensus2.test_medicareCensus Coverage Results" MODIFIED="1588068950752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_medicarecensus_py.coverage" NAME="pytest in MedicarePlanDetail.py Coverage Results" MODIFIED="1589182707497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_search_TestSearch.coverage" NAME="pytest for test_search.TestSearch Coverage Results" MODIFIED="1591868831784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_pytest1_test_02.coverage" NAME="pytest for test_pytest1.test_02 Coverage Results" MODIFIED="1591095704065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/testCase" />
+    <SUITE FILE_PATH="coverage/NewWebTest$readelement.coverage" NAME="readelement Coverage Results" MODIFIED="1591952088328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/NewWebTest$medicare_censuspage.coverage" NAME="medicare_censuspage Coverage Results" MODIFIED="1591954741626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page_object" />
+    <SUITE FILE_PATH="coverage/NewWebTest$logger.coverage" NAME="logger Coverage Results" MODIFIED="1591786333283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_pytest1_test_3.coverage" NAME="pytest for test_pytest1.test_3 Coverage Results" MODIFIED="1590128533346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_pytest1_py.coverage" NAME="pytest in test_pytest1.py Coverage Results" MODIFIED="1591352649444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_pyTest_TestMedicarePlanDetail.coverage" NAME="pytest for test_pyTest.TestMedicarePlanDetail Coverage Results" MODIFIED="1590128116543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$medicareCensusPage.coverage" NAME="medicareCensusPage Coverage Results" MODIFIED="1591781482634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes/Medicare" />
     <SUITE FILE_PATH="coverage/NewWebTest$test_medicarecensus.coverage" NAME="test_medicarecensus Coverage Results" MODIFIED="1589446935079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../NewMedicare" />
-    <SUITE FILE_PATH="coverage/NewWebTest$MedicarePlanDetail.coverage" NAME="MedicarePlanDetail Coverage Results" MODIFIED="1589452420780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$run_case.coverage" NAME="run_case Coverage Results" MODIFIED="1591950077155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_testlog_py.coverage" NAME="pytest in testlog.py Coverage Results" MODIFIED="1590136737471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$readconfig.coverage" NAME="readconfig Coverage Results" MODIFIED="1591786068504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_ceneus_TestCensus_test_medicarecensus.coverage" NAME="pytest for test_ceneus.TestCensus.test_medicarecensus Coverage Results" MODIFIED="1592391000216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Medicare" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_comparePlanDetail_TestMedicarePlanDetail_test_medicare.coverage" NAME="pytest for test_comparePlanDetail.TestMedicarePlanDetail.test_medicare Coverage Results" MODIFIED="1591614021159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/testCase" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_search_TestSearch_test_002.coverage" NAME="pytest for test_search.TestSearch.test_002 Coverage Results" MODIFIED="1591954446324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_ceneus_py.coverage" NAME="pytest in test_ceneus.py Coverage Results" MODIFIED="1592391643291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Medicare" />
+    <SUITE FILE_PATH="coverage/NewWebTest$comparePlanDetail.coverage" NAME="comparePlanDetail Coverage Results" MODIFIED="1590119231429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$testPytest.coverage" NAME="testPytest Coverage Results" MODIFIED="1589447053933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_ceneus_TestCensus.coverage" NAME="pytest for test_ceneus.TestCensus Coverage Results" MODIFIED="1592391344494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Medicare" />
+    <SUITE FILE_PATH="coverage/NewWebTest$multithread.coverage" NAME="multithread Coverage Results" MODIFIED="1589193710715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$conf.coverage" NAME="conf Coverage Results" MODIFIED="1591786099715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_medicareCensus2_py.coverage" NAME="pytest in medicareCensus2.py Coverage Results" MODIFIED="1587984248378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$test_medicareCensus.coverage" NAME="test_medicareCensus Coverage Results" MODIFIED="1587724651754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/NewWebTest$conftest.coverage" NAME="conftest Coverage Results" MODIFIED="1591865742702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NewWebTest$medicareCensus.coverage" NAME="medicareCensus Coverage Results" MODIFIED="1587887551047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_medicarecensus_TestMedicare_test_medicare.coverage" NAME="pytest for test_medicarecensus.TestMedicare.test_medicare Coverage Results" MODIFIED="1589021725216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
-    <SUITE FILE_PATH="coverage/NewWebTest$comparePlanDetail.coverage" NAME="comparePlanDetail Coverage Results" MODIFIED="1589960330003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
-    <SUITE FILE_PATH="coverage/NewWebTest$testPytest.coverage" NAME="testPytest Coverage Results" MODIFIED="1589447053933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_pyTest_py.coverage" NAME="pytest in test_pyTest.py Coverage Results" MODIFIED="1590128032076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_pytest1_test_01.coverage" NAME="pytest for test_pytest1.test_01 Coverage Results" MODIFIED="1591001068344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/testCase" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_comparePlanDetail_TestMedicarePlanDetail.coverage" NAME="pytest for test_comparePlanDetail.TestMedicarePlanDetail Coverage Results" MODIFIED="1591612237257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/testCase" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_search_py.coverage" NAME="pytest in test_search.py Coverage Results" MODIFIED="1591954503281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/NewWebTest$time.coverage" NAME="time Coverage Results" MODIFIED="1591786250634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/NewWebTest$inspect.coverage" NAME="inspect Coverage Results" MODIFIED="1591787815143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
+    <SUITE FILE_PATH="coverage/NewWebTest$run.coverage" NAME="run Coverage Results" MODIFIED="1590139723958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/NewWebTest$startDriver.coverage" NAME="startDriver Coverage Results" MODIFIED="1591698189237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_comparePlanDetail_py.coverage" NAME="pytest in test_comparePlanDetail.py Coverage Results" MODIFIED="1591954763385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/testCase" />
+    <SUITE FILE_PATH="coverage/NewWebTest$MedicarePlanDetail.coverage" NAME="MedicarePlanDetail Coverage Results" MODIFIED="1591614776054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$multiprocessing.coverage" NAME="multiprocessing Coverage Results" MODIFIED="1589445843302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
-    <SUITE FILE_PATH="coverage/NewWebTest$multithread.coverage" NAME="multithread Coverage Results" MODIFIED="1589193710715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_pyTest_Test_MedicarePlanDetail_test_medicare.coverage" NAME="pytest for test_pyTest.Test_MedicarePlanDetail.test_medicare Coverage Results" MODIFIED="1590045220768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/comparePlanDetails.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/includes/multiprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/includes/MedicarePlanDetail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="-65">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#28#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/webpage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/includes/comparePlanDetail.py">
+        <entry file="file://$PROJECT_DIR$/test/Medicare/test_ceneus.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="64" column="51" lean-forward="true" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+            <state relative-caret-position="240">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#46#56#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="637">
+              <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="79" selection-end-column="82" />
               <folding>
                 <element signature="e#28#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_object/medicare_censuspage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -100,27 +180,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/includes/medicareCensus.py" />
-        <option value="$PROJECT_DIR$/config/init.py" />
-        <option value="$PROJECT_DIR$/test/includes/medicareCensus2.py" />
-        <option value="$PROJECT_DIR$/../NewMedicare/test_census.py" />
-        <option value="$PROJECT_DIR$/test/includes/test_medicarecensus.py" />
-        <option value="$PROJECT_DIR$/test/includes/multiprocessing.py" />
         <option value="$PROJECT_DIR$/test/includes/multithread.py" />
         <option value="$PROJECT_DIR$/test/includes/multiprocess.py" />
         <option value="$PROJECT_DIR$/../NewMedicare/test_medicarecensus.py" />
         <option value="$PROJECT_DIR$/test/includes/testPytest.py" />
         <option value="$PROJECT_DIR$/test/includes/updateTestCase.py" />
         <option value="$PROJECT_DIR$/data/comparePlanDetails.csv" />
-        <option value="$PROJECT_DIR$/test/includes/MedicarePlanDetail.py" />
         <option value="$PROJECT_DIR$/test/includes/comparePlanDetail.py" />
+        <option value="$PROJECT_DIR$/test/includes/test_comparePlanDetail.py" />
+        <option value="$PROJECT_DIR$/test/includes/test_pyTest.py" />
+        <option value="$PROJECT_DIR$/test/includes/conftest.py" />
+        <option value="$PROJECT_DIR$/test/includes/test_pytest1.py" />
+        <option value="$PROJECT_DIR$/test/includes/testlog.py" />
+        <option value="$PROJECT_DIR$/test/includes/run.py" />
+        <option value="$PROJECT_DIR$/test/run.py" />
+        <option value="$PROJECT_DIR$/test/testCase/code/test_conver.py" />
+        <option value="$PROJECT_DIR$/test/testCase/code/cau.py" />
+        <option value="$PROJECT_DIR$/test/testCase/run.py" />
+        <option value="$PROJECT_DIR$/test/testCase/code/__init__.py" />
+        <option value="$PROJECT_DIR$/test/testCase/test_pytest1.py" />
+        <option value="$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py" />
+        <option value="$PROJECT_DIR$/test/includes/MedicarePlanDetail.py" />
+        <option value="$PROJECT_DIR$/test/includes/Medicare/medicareCensusPage.py" />
+        <option value="$PROJECT_DIR$/test/includes/Medicare/__init__.py" />
+        <option value="$PROJECT_DIR$/test/includes/startDriver.py" />
+        <option value="$PROJECT_DIR$/test/includes/Medicare/test_medicareCensusPage.py" />
+        <option value="$PROJECT_DIR$/common/__init__.py" />
+        <option value="$PROJECT_DIR$/config/__init__.py" />
+        <option value="$PROJECT_DIR$/page/__init__.py" />
+        <option value="$PROJECT_DIR$/page_object/__init__.py" />
+        <option value="$PROJECT_DIR$/test/testCase/__init__.py" />
+        <option value="$PROJECT_DIR$/test/__init__.py" />
+        <option value="$PROJECT_DIR$/tools/__init__.py" />
+        <option value="$PROJECT_DIR$/common/readconfig.py" />
+        <option value="$PROJECT_DIR$/tools/time.py" />
+        <option value="$PROJECT_DIR$/tools/logger.py" />
+        <option value="$PROJECT_DIR$/common/readelement.py" />
+        <option value="$PROJECT_DIR$/page_element/medicare_censusPage" />
+        <option value="$PROJECT_DIR$/common/inspect.py" />
+        <option value="$PROJECT_DIR$/page/webpage.py" />
+        <option value="$PROJECT_DIR$/page_object/searchpage.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/tools/send_mail.py" />
+        <option value="$PROJECT_DIR$/page_element/search.yaml" />
+        <option value="$PROJECT_DIR$/run_case.py" />
+        <option value="$PROJECT_DIR$/test/test_search.py" />
+        <option value="$PROJECT_DIR$/config/conf.py" />
+        <option value="$PROJECT_DIR$/page_element/medicarecensus.yaml" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/page_object/medicare_censuspage.py" />
+        <option value="$PROJECT_DIR$/test/Medicare/test_ceneus.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="33" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="31" />
     <option name="y" value="23" />
-    <option name="width" value="1407" />
+    <option name="width" value="1409" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -143,72 +260,22 @@
             <path>
               <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="allure-report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="page_element" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="page_object" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="python3.7" type="462c0819:PsiDirectoryNode" />
-              <item name="multiprocessing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="pandas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 (2) &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="site-packages" type="462c0819:PsiDirectoryNode" />
-              <item name="pandas" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,6 +290,10 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/testCase" />
+      <recent name="$PROJECT_DIR$/test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/includes" />
       <recent name="$PROJECT_DIR$/data" />
@@ -240,8 +311,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.comparePlanDetail">
-    <configuration name="MedicarePlanDetail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest in test_ceneus.py">
+    <configuration name="medicare_censuspage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,12 +320,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/includes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/includes/MedicarePlanDetail.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_object/medicare_censuspage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,101 +334,84 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="comparePlanDetail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for test_ceneus.TestCensus" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/includes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Medicare" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/includes/comparePlanDetail.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ceneus.TestCensus&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="multiprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest for test_ceneus.TestCensus.test_medicarecensus" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/includes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Medicare" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/includes/multiprocess.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ceneus.TestCensus.test_medicarecensus&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="testPytest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest in test_ceneus.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/includes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Medicare" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/includes/testPytest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Medicare/test_ceneus.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_medicarecensus" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pytest in test_comparePlanDetail.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../NewMedicare" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../NewMedicare/test_medicarecensus.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.medicare_censuspage" />
+      <item itemvalue="Python tests.pytest in test_ceneus.py" />
+      <item itemvalue="Python tests.pytest in test_comparePlanDetail.py" />
+      <item itemvalue="Python tests.pytest for test_ceneus.TestCensus" />
+      <item itemvalue="Python tests.pytest for test_ceneus.TestCensus.test_medicarecensus" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.comparePlanDetail" />
-        <item itemvalue="Python.MedicarePlanDetail" />
-        <item itemvalue="Python.testPytest" />
-        <item itemvalue="Python.test_medicarecensus" />
-        <item itemvalue="Python.multiprocessing" />
+        <item itemvalue="Python tests.pytest in test_ceneus.py" />
+        <item itemvalue="Python tests.pytest for test_ceneus.TestCensus" />
+        <item itemvalue="Python tests.pytest for test_ceneus.TestCensus.test_medicarecensus" />
+        <item itemvalue="Python tests.pytest in test_comparePlanDetail.py" />
+        <item itemvalue="Python.medicare_censuspage" />
       </list>
     </recent_temporary>
   </component>
@@ -377,44 +431,55 @@
       <workItem from="1587895265980" duration="8074000" />
       <workItem from="1588071589385" duration="2703000" />
       <workItem from="1588760682540" duration="33759000" />
-      <workItem from="1589467689746" duration="3122000" />
+      <workItem from="1589467689746" duration="8048000" />
+      <workItem from="1590118806442" duration="306000" />
+      <workItem from="1590119219006" duration="12170000" />
+      <workItem from="1590463849475" duration="122000" />
+      <workItem from="1590492066312" duration="4451000" />
+      <workItem from="1590661114167" duration="9214000" />
+      <workItem from="1591095518518" duration="347000" />
+      <workItem from="1591095887019" duration="15187000" />
+      <workItem from="1591694389930" duration="2249000" />
+      <workItem from="1591697009320" duration="6518000" />
+      <workItem from="1591777726789" duration="18356000" />
+      <workItem from="1592217970819" duration="4814000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_medicarecensus_TestMedicare_test_medicare - 2020.05.09 at 17h 50m 59s.xml">
-      <configuration name="pytest for test_medicarecensus.TestMedicare.test_medicare" configurationId="tests" />
+    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.12 at 18h 13m 05s.xml">
+      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_medicarecensus_TestMedicare_test_medicare - 2020.05.09 at 17h 54m 22s.xml">
-      <configuration name="pytest for test_medicarecensus.TestMedicare.test_medicare" configurationId="tests" />
+    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.12 at 18h 15m 18s.xml">
+      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_medicarecensus_TestMedicare_test_medicare - 2020.05.09 at 18h 01m 28s.xml">
-      <configuration name="pytest for test_medicarecensus.TestMedicare.test_medicare" configurationId="tests" />
+    <history-entry file="pytest_in_test_ceneus_py - 2020.06.17 at 18h 06m 49s.xml">
+      <configuration name="pytest in test_ceneus.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_medicarecensus_TestMedicare_test_medicare - 2020.05.09 at 18h 04m 33s.xml">
-      <configuration name="pytest for test_medicarecensus.TestMedicare.test_medicare" configurationId="tests" />
+    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.17 at 18h 34m 44s.xml">
+      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_medicarecensus_TestMedicare_test_medicare - 2020.05.09 at 18h 20m 28s.xml">
-      <configuration name="pytest for test_medicarecensus.TestMedicare.test_medicare" configurationId="tests" />
+    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.17 at 18h 41m 20s.xml">
+      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_medicarecensus_TestMedicare_test_medicare - 2020.05.09 at 18h 25m 06s.xml">
-      <configuration name="pytest for test_medicarecensus.TestMedicare.test_medicare" configurationId="tests" />
+    <history-entry file="pytest_in_test_ceneus_py - 2020.06.17 at 18h 44m 44s.xml">
+      <configuration name="pytest in test_ceneus.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_medicarecensus_TestMedicare_test_medicare - 2020.05.09 at 18h 26m 00s.xml">
-      <configuration name="pytest for test_medicarecensus.TestMedicare.test_medicare" configurationId="tests" />
+    <history-entry file="pytest_for_test_ceneus_TestCensus_test_medicarecensus - 2020.06.17 at 18h 50m 15s.xml">
+      <configuration name="pytest for test_ceneus.TestCensus.test_medicarecensus" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_medicarecensus_TestMedicare_test_medicare - 2020.05.09 at 18h 55m 22s.xml">
-      <configuration name="pytest for test_medicarecensus.TestMedicare.test_medicare" configurationId="tests" />
+    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.17 at 18h 51m 09s.xml">
+      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_MedicarePlanDetail_py - 2020.05.11 at 15h 38m 27s.xml">
-      <configuration name="pytest in MedicarePlanDetail.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.17 at 18h 56m 12s.xml">
+      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_MedicarePlanDetail_py - 2020.05.11 at 15h 39m 57s.xml">
-      <configuration name="pytest in MedicarePlanDetail.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_ceneus_py - 2020.06.17 at 19h 01m 51s.xml">
+      <configuration name="pytest in test_ceneus.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60867000" />
+    <option name="totallyTimeSpent" value="139527000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,30 +491,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="23" width="1407" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17289378" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868765" visible="true" weight="0.25178826" />
+      <window_info id="Structure" order="1" sideWeight="0.5013123" side_tool="true" weight="0.25749817" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996337" visible="true" weight="0.35433072" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989011" weight="0.060367454" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34120736" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996337" weight="0.4944238" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989011" weight="0.32342008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989011" weight="0.32939634" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996337" weight="0.32939634" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32939634" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50036633" side_tool="true" weight="0.4711286" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4996337" weight="0.22572179" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4996337" visible="true" weight="0.5365552" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4996337" weight="0.32939634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32967034" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,26 +533,109 @@
           <line>47</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/testCase/test_pytest1.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/testCase/test_pytest1.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/testCase/test_pytest1.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/includes/Medicare/test_medicareCensusPage.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test/Medicare/test_ceneus.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/test_medicareCensus.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/_pytest/fixtures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="86">
+          <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/medicareCensus2.py" />
-    <entry file="file://$PROJECT_DIR$/test/includes/medicareCensus.py" />
-    <entry file="file:///usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7/multiprocessing/pool.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pluggy/callers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="638" column="20" lean-forward="true" selection-start-line="638" selection-start-column="20" selection-end-line="638" selection-end-column="20" />
+        <state relative-caret-position="86">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/_pytest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/_pytest/python.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="447" selection-start-line="447" selection-end-line="447" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/py/_path/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="700" selection-start-line="700" selection-end-line="700" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/_pytest/assertion/rewrite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pluggy/hooks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pluggy/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/allure_commons/_allure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/comparePlanDetails.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -498,105 +646,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NewMedicare/test_census.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="31" column="105" selection-start-line="31" selection-start-column="105" selection-end-line="31" selection-end-column="105" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../NewMedicare/test_medicarecensus.py">
+    <entry file="file://$PROJECT_DIR$/test/includes/multiprocess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="58" lean-forward="true" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/testPytest.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        <state relative-caret-position="147">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/includes/Medicare/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/test/testCase/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testCase/test_pytest1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/includes/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/updateTestCase.py">
+    <entry file="file://$PROJECT_DIR$/test/includes/startDriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="195">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/comparePlanDetails2.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/pandas/core/generic.py">
+    <entry file="file://$PROJECT_DIR$/page_object/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testCase/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/includes/Medicare/test_medicareCensusPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="4788" selection-start-line="4788" selection-end-line="4788" />
+        <state relative-caret-position="295">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/comparePlanDetails.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+    <entry file="file://$PROJECT_DIR$/tools/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
       </provider>
-      <provider editor-type-id="text-editor">
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/times.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="63" selection-start-line="1" selection-start-column="63" selection-end-line="1" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/_pytest/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-443">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/send_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/report/report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/medicare_censusPage" />
+    <entry file="file://$PROJECT_DIR$/common/readelement.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_object/searchpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="32" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/multiprocess.py">
+    <entry file="file://$PROJECT_DIR$/test/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="42" selection-start-line="42" selection-end-line="42" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/inspect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/readconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/medicarecensus.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/search.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/includes/MedicarePlanDetail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="-65">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#28#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/init.py">
+    <entry file="file://$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="637">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="79" selection-end-column="82" />
+          <folding>
+            <element signature="e#28#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/comparePlanDetail.py">
+    <entry file="file://$PROJECT_DIR$/page_object/medicare_censuspage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="64" column="51" lean-forward="true" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/webpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Medicare/test_ceneus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#28#41#0" expanded="true" />
+            <element signature="e#46#56#0" expanded="true" />
           </folding>
         </state>
       </provider>

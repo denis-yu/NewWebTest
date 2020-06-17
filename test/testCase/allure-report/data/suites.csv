@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 05 18:15:05 CST 2020","Fri Jun 05 18:15:05 CST 2020","0","","test_pytest1","","","","test_02",""
+"broken","Mon Jun 08 18:38:02 CST 2020","Mon Jun 08 18:39:52 CST 2020","110048","","test_comparePlanDetail","TestMedicarePlanDetail","","","test_medicare",""
+"passed","Fri Jun 05 18:15:05 CST 2020","Fri Jun 05 18:15:05 CST 2020","0","","test_pytest1","","","","test_01",""

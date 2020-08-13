@@ -1,15 +1,15 @@
 {
-  "uid" : "e901fae8f97eccff",
-  "name" : "test_openmedicaresite",
-  "fullName" : "test.Medicare.test_ceneus.TestCensus#test_openmedicaresite",
-  "historyId" : "8d2a3e26514ea9410ee107b32090cc33",
+  "uid" : "b84757903320e2e2",
+  "name" : "test_medicarecensus",
+  "fullName" : "test.Medicare.test_ceneus.TestCensus#test_medicarecensus",
+  "historyId" : "3d61d44063a1cb4d31b9b6b52b3dab4b",
   "time" : {
-    "start" : 1592392369275,
-    "stop" : 1592392401996,
-    "duration" : 32721
+    "start" : 1592392402000,
+    "stop" : 1592392419968,
+    "duration" : 17968
   },
-  "description" : "open medicare site",
-  "descriptionHtml" : "<p>open medicare site</p>\n",
+  "description" : "get medicare quote",
+  "descriptionHtml" : "<p>get medicare quote</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
@@ -30,15 +30,15 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "description" : "open medicare site",
+    "description" : "get medicare quote",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "b8461afb04ad993f",
+      "uid" : "59eeafbc474236d3",
       "name" : "log",
-      "source" : "b8461afb04ad993f.txt",
+      "source" : "59eeafbc474236d3.txt",
       "type" : "text/plain",
-      "size" : 3116
+      "size" : 3425
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -95,14 +95,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e901fae8f97eccff.json",
+  "source" : "b84757903320e2e2.json",
   "parameterValues" : [ ]
 }

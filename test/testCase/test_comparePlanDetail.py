@@ -76,5 +76,4 @@ if __name__ == '__main__':
     newMedicare.setup_method("chrome")
     newMedicare.test_medicare()
     newMedicare.teardown_method("chrome")
-    now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
-    pytest.main("-s -q test_comparePlanDetail.py  --alluredir result".format(now))
+

@@ -3,7 +3,7 @@
 import sys
 
 sys.path.append('.')
-__author__ = '1084502012@qq.com'
+
 
 from page.webpage import WebPage, sleep
 from common.readelement import Element

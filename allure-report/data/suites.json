@@ -9,26 +9,26 @@
         "name" : "TestCensus",
         "children" : [ {
           "name" : "test_openmedicaresite",
-          "uid" : "e901fae8f97eccff",
+          "uid" : "9ad0e492743e1d35",
           "parentUid" : "bdbf034a021571bbf39b9829fd478e9e",
           "status" : "passed",
           "time" : {
-            "start" : 1592392369275,
-            "stop" : 1592392401996,
-            "duration" : 32721
+            "start" : 1597311754797,
+            "stop" : 1597311760730,
+            "duration" : 5933
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "test_medicarecensus",
-          "uid" : "32104247f1c53434",
+          "uid" : "dd1c10d0302ec253",
           "parentUid" : "bdbf034a021571bbf39b9829fd478e9e",
           "status" : "passed",
           "time" : {
-            "start" : 1592392402000,
-            "stop" : 1592392419968,
-            "duration" : 17968
+            "start" : 1597311760734,
+            "stop" : 1597311773548,
+            "duration" : 12814
           },
           "flaky" : false,
           "newFailed" : false,

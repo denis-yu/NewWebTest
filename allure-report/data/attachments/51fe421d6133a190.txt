@@ -1,0 +1,20 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:205 Starting new HTTP connection (1): 127.0.0.1:53325
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53325 "POST /session HTTP/1.1" 200 727
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/e97ffd2cf2dc1a28b6a49b1f597ea3a4/window/maximize {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53325 "POST /session/e97ffd2cf2dc1a28b6a49b1f597ea3a4/window/maximize HTTP/1.1" 200 50
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/e97ffd2cf2dc1a28b6a49b1f597ea3a4/window/maximize {}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53325 "POST /session/e97ffd2cf2dc1a28b6a49b1f597ea3a4/window/maximize HTTP/1.1" 200 50
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/e97ffd2cf2dc1a28b6a49b1f597ea3a4/timeouts {"pageLoad": 60000}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53325 "POST /session/e97ffd2cf2dc1a28b6a49b1f597ea3a4/timeouts HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/e97ffd2cf2dc1a28b6a49b1f597ea3a4/url {"url": "https://staging.medicare.healthinsurance.com"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53325 "POST /session/e97ffd2cf2dc1a28b6a49b1f597ea3a4/url HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:53325/session/e97ffd2cf2dc1a28b6a49b1f597ea3a4/timeouts {"implicit": 10000}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:393 http://127.0.0.1:53325 "POST /session/e97ffd2cf2dc1a28b6a49b1f597ea3a4/timeouts HTTP/1.1" 200 14
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[32mINFO    [0m root:webpage.py:37 打开网页：https://staging.medicare.healthinsurance.com

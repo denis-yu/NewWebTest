@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[@id='__next']/div[2]/div/div/div[2]/div",
+      "children" : [ {
+        "name" : "test_medicare",
+        "uid" : "b71dfa701aa81f13",
+        "parentUid" : "7030bd49b4a898b76dbfd34098e9ebb7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591612682231,
+          "stop" : 1591612792279,
+          "duration" : 110048
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7030bd49b4a898b76dbfd34098e9ebb7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

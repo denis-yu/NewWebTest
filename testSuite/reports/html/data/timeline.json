@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Deniss-MacBook-Pro.local",
+    "children" : [ {
+      "name" : "84867-MainThread",
+      "children" : [ {
+        "name" : "test_shoppingflow",
+        "uid" : "5a9c7a13086efec5",
+        "parentUid" : "7ac9cf76bb753aea62896ce15a11d5ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653040157124,
+          "stop" : 1653040166996,
+          "duration" : 9872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ac9cf76bb753aea62896ce15a11d5ac"
+    } ],
+    "uid" : "1a0fa0f24dff631f0ff9a417ef5a5f90"
+  } ]
+}

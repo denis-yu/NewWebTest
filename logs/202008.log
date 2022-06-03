@@ -1,0 +1,12 @@
+INFO	2020-08-13 17:11:33,024	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-08-13 17:11:33,732	[webpage.py:69]	输入文本：30301
+INFO	2020-08-13 17:11:45,810	[webpage.py:75]	点击元素：('xpath', '//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]')
+INFO	2020-08-13 17:27:35,838	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-08-13 17:33:27,600	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-08-13 17:41:59,976	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-08-13 17:42:40,729	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-08-13 17:42:41,449	[webpage.py:69]	输入文本：30301
+INFO	2020-08-13 17:42:53,547	[webpage.py:75]	点击元素：('xpath', '//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]')
+INFO	2020-08-13 17:53:06,805	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-08-13 17:53:07,522	[webpage.py:69]	输入文本：30301
+INFO	2020-08-13 17:53:19,619	[webpage.py:75]	点击元素：('xpath', '//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]')

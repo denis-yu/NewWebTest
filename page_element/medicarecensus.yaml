@@ -1,0 +1,2 @@
+zipCode: "name==census.location.zip"
+quoteButton: "xpath==//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]"

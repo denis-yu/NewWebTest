@@ -1,0 +1,51 @@
+INFO	2020-06-10 18:52:13,465	[logger.py:52]	你好
+INFO	2020-06-11 17:47:17,138	[webpage.py:37]	打开网页：https://www.baidu.com
+INFO	2020-06-11 17:47:17,967	[webpage.py:69]	输入文本：selenium
+INFO	2020-06-11 17:47:20,069	[webpage.py:75]	点击元素：('id', 'su')
+INFO	2020-06-11 17:47:20,123	[test_search.py:28]	<re.Match object; span=(469, 477), match='selenium'>
+INFO	2020-06-11 17:47:20,981	[webpage.py:37]	打开网页：https://www.baidu.com
+INFO	2020-06-11 17:47:21,611	[webpage.py:69]	输入文本：selenium
+INFO	2020-06-11 17:47:22,666	[test_search.py:35]	['selenium', 'selenium python', 'selenium定位元素的方法', 'selenium自动化测试框架']
+INFO	2020-06-12 16:19:34,978	[webpage.py:37]	打开网页：https://www.baidu.com
+INFO	2020-06-12 16:19:35,783	[webpage.py:69]	输入文本：selenium
+INFO	2020-06-12 16:19:37,929	[webpage.py:75]	点击元素：('id', 'su')
+INFO	2020-06-12 16:19:37,977	[test_search.py:28]	<re.Match object; span=(469, 477), match='selenium'>
+INFO	2020-06-12 16:19:38,392	[webpage.py:37]	打开网页：https://www.baidu.com
+INFO	2020-06-12 16:19:39,032	[webpage.py:69]	输入文本：selenium
+INFO	2020-06-12 16:19:40,089	[test_search.py:35]	['selenium', 'selenium python', 'selenium定位元素的方法', 'selenium面试题']
+INFO	2020-06-12 17:35:09,692	[webpage.py:37]	打开网页：https://www.baidu.com
+INFO	2020-06-12 17:35:10,532	[webpage.py:69]	输入文本：selenium
+INFO	2020-06-12 17:35:12,641	[webpage.py:75]	点击元素：('id', 'su')
+INFO	2020-06-12 17:35:12,695	[test_search.py:28]	<re.Match object; span=(469, 477), match='selenium'>
+INFO	2020-06-12 17:35:13,197	[webpage.py:37]	打开网页：https://www.baidu.com
+INFO	2020-06-12 17:35:13,842	[webpage.py:69]	输入文本：selenium
+INFO	2020-06-12 17:35:14,893	[test_search.py:35]	['selenium', 'selenium python', 'selenium定位元素的方法', 'selenium自动化测试框架']
+INFO	2020-06-12 17:38:44,749	[webpage.py:37]	打开网页：https://www.baidu.com
+INFO	2020-06-12 17:38:45,228	[webpage.py:37]	打开网页：https://www.baidu.com
+INFO	2020-06-12 17:40:31,103	[webpage.py:37]	打开网页：https://www.baidu.com
+INFO	2020-06-12 17:40:31,592	[webpage.py:37]	打开网页：https://www.baidu.com
+INFO	2020-06-12 17:52:07,878	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-06-12 17:52:08,604	[webpage.py:69]	输入文本：30301
+INFO	2020-06-12 17:57:26,092	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-06-12 17:57:26,812	[webpage.py:69]	输入文本：30301
+INFO	2020-06-12 18:12:47,408	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-06-12 18:12:48,121	[webpage.py:69]	输入文本：30301
+INFO	2020-06-12 18:13:05,378	[webpage.py:75]	点击元素：('xpath', '//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]')
+INFO	2020-06-12 18:15:05,072	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-06-12 18:15:05,772	[webpage.py:69]	输入文本：30301
+INFO	2020-06-12 18:15:17,853	[webpage.py:75]	点击元素：('xpath', '//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]')
+INFO	2020-06-17 18:06:36,610	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-06-17 18:06:37,350	[webpage.py:69]	输入文本：30301
+INFO	2020-06-17 18:06:49,438	[webpage.py:75]	点击元素：('xpath', '//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]')
+INFO	2020-06-17 18:55:54,104	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-06-17 18:55:54,806	[webpage.py:69]	输入文本：30301
+INFO	2020-06-17 18:56:12,169	[webpage.py:75]	点击元素：('xpath', '//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]')
+INFO	2020-06-17 19:01:33,364	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-06-17 19:01:34,247	[webpage.py:69]	输入文本：30301
+INFO	2020-06-17 19:01:51,369	[webpage.py:75]	点击元素：('xpath', '//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]')
+INFO	2020-06-17 19:11:43,577	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-06-17 19:11:44,289	[webpage.py:69]	输入文本：30301
+INFO	2020-06-17 19:12:01,525	[webpage.py:75]	点击元素：('xpath', '//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]')
+INFO	2020-06-17 19:13:21,995	[webpage.py:37]	打开网页：https://staging.medicare.healthinsurance.com
+INFO	2020-06-17 19:13:22,679	[webpage.py:69]	输入文本：30301
+INFO	2020-06-17 19:13:39,967	[webpage.py:75]	点击元素：('xpath', '//html[1]/body[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/div[1]/div[2]/button[1]')

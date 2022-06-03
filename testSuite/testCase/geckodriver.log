@@ -1,0 +1,33 @@
+1591609317741	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/rust_mozprofileVpGb89"
+1591609322931	Marionette	INFO	Listening on port 57791
+1591609361628	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/rust_mozprofileVCz9cE"
+1591609364377	Marionette	INFO	Listening on port 57837
+1591609364430	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+1591609437432	Marionette	INFO	Stopped listening on port 57837
+1591611691518	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/rust_mozprofilePVdpb3"
+1591611694956	Marionette	INFO	Listening on port 58416
+1591611695058	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+1591611775601	Marionette	INFO	Stopped listening on port 58416
+1591611819587	Marionette	INFO	Stopped listening on port 57791
+1591612238792	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/rust_mozprofile0I1iPK"
+1591612242094	Marionette	INFO	Listening on port 58855
+1591612242133	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+1591612330722	Marionette	INFO	Stopped listening on port 58855
+1591612679283	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/95/4qsvf70n5s55n0wp9h6b0h_r0000gn/T/rust_mozprofileeVukXQ"
+1591612682100	Marionette	INFO	Listening on port 59036
+1591612682205	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+JavaScript error: https://assets.healthinsurance.com/med-sunmaker/_next/static/runtime/main-79345a3d2fccb8f8a5bf.js, line 1: TypeError: n is null
+1591612792443	Marionette	INFO	Stopped listening on port 59036

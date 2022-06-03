@@ -1,0 +1,60 @@
+{
+  "5261e6abc051ba96c1bf18542ae1b35b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a86c02192f6260c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591352105684,
+        "stop" : 1591352105684,
+        "duration" : 0
+      }
+    } ]
+  },
+  "bf94e8f2ff5b3c222e6d5c7d86e6756b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2fb893251058be1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591352105680,
+        "stop" : 1591352105680,
+        "duration" : 0
+      }
+    } ]
+  },
+  "84f183e4d5823223fbd8b89e5b185c89" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b71dfa701aa81f13",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[@id='__next']/div[2]/div/div/div[2]/div",
+      "time" : {
+        "start" : 1591612682231,
+        "stop" : 1591612792279,
+        "duration" : 110048
+      }
+    } ]
+  }
+}

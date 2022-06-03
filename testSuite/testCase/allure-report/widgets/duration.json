@@ -1,0 +1,31 @@
+[ {
+  "uid" : "5a86c02192f6260c",
+  "name" : "test_02",
+  "time" : {
+    "start" : 1591352105684,
+    "stop" : 1591352105684,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b71dfa701aa81f13",
+  "name" : "test_medicare",
+  "time" : {
+    "start" : 1591612682231,
+    "stop" : 1591612792279,
+    "duration" : 110048
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b2fb893251058be1",
+  "name" : "test_01",
+  "time" : {
+    "start" : 1591352105680,
+    "stop" : 1591352105680,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

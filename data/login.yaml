@@ -1,0 +1,20 @@
+# login 接口用例
+- url: http://121.41.14.39:9097/
+  method: POST
+- #test_01
+#  detail: 账号密码都正确
+  data:
+    username: "20154084"
+    password: "123456"
+  resp:
+    code: 400
+    message: "密码错误"
+
+-  #test_02
+#    detail: 账号密码都正确
+    data:
+      username: "20154085"
+      password: "123456"
+    resp:
+      code: 400
+      message: "用户不存在"

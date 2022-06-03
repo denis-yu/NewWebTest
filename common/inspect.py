@@ -8,7 +8,7 @@ __author__ = '1084502012@qq.com'
 import os
 import yaml
 from tools.times import timestamp
-from config.conf import ELEMENT_PATH, LOCATE_MODE
+from configs.conf import ELEMENT_PATH, LOCATE_MODE
 
 
 def inspect_element():

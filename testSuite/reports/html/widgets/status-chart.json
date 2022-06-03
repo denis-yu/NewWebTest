@@ -1,0 +1,11 @@
+[ {
+  "uid" : "5a9c7a13086efec5",
+  "name" : "test_shoppingflow",
+  "time" : {
+    "start" : 1653040157124,
+    "stop" : 1653040166996,
+    "duration" : 9872
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

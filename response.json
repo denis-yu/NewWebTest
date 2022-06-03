@@ -1,0 +1,122 @@
+{
+  "popup": {
+    "medicare": true,
+    "ifp": true,
+    "shortTerm": true,
+    "dental": true,
+    "sbg": true,
+    "exit": true
+  },
+  "filter": {
+    "ifp": {
+      "carrier": [],
+      "policyDuration": []
+    },
+    "medicare": {
+      "carrier": [],
+      "carrierPreFilter": [],
+      "planCategory": [],
+      "planTypes": []
+    },
+    "sbg": {
+      "carrier": [],
+      "planTypes": [],
+      "quality": []
+    },
+    "medicaid": {
+      "demographics": []
+    },
+    "shortTerm": {
+      "carrier": [],
+      "maxDuration": [],
+      "maxConsecutiveDuration": []
+    },
+    "dental": {
+      "carrier": [],
+      "planTypes": []
+    },
+    "providers": {
+      "specialities": [],
+      "insuranceTypes": [],
+      "insuranceProviders": [],
+      "maxDistance": 5
+    },
+    "medsupp": {
+      "planType": []
+    },
+    "useCustomFilters": true,
+    "customFiltersInUse": false
+  },
+  "sort": {
+    "ifp": "price",
+    "medicare": "cost",
+    "sbg": "price",
+    "medsupp": "popularity",
+    "shortTerm": "price",
+    "dental": "premium",
+    "providers": "distance"
+  },
+  "census": {
+    "location": {
+      "county": "Fulton",
+      "fips": "13121",
+      "state": "GA",
+      "code": "11470",
+      "maRegionCode": "08",
+      "pdpRegionCode": "10",
+      "ifpRegionCode": "3",
+      "zip": "30301",
+      "defaultedCounty": false,
+      "city": "Atlanta",
+      "stateName": "Georgia"
+    },
+    "drugs": {
+      "medicare": {
+        "noDrugs": false,
+        "drugs": []
+      },
+      "ifp": [],
+      "shortTerm": []
+    },
+    "conditions": {
+      "ifp": [],
+      "medicare": [],
+      "shortTerm": []
+    },
+    "newLocation": false,
+    "isCanonical": true,
+    "sbgIsCanonical": true,
+    "medicareIsCanonical": true,
+    "familyMemberCount": 0,
+    "empCount": 5,
+    "stEffective": "2022-06-05",
+    "effective": "2022-06-01",
+    "oneTimePaymentSelected": false,
+    "memberAge": 35,
+    "planYear": 2021,
+    "ifpPlanYear": 2021,
+    "includeSNP": false,
+    "age": 65,
+    "gender": "M",
+    "tobacco": false,
+    "disabled": false,
+    "member": [
+      {
+        "_id": "6295772c76ee050f0abe4543",
+        "role": "P",
+        "dob": "1987-05-31",
+        "smoker": false,
+        "gender": "M",
+        "age": 35
+      }
+    ]
+  },
+  "page": 1,
+  "pageSize": 25,
+  "helpTab": true,
+  "showIfpCensus": true,
+  "_id": "6295772c76ee050f0abe4542",
+  "userId": "ad484462-a429-49d5-8a2e-3eefc7ea20e9",
+  "createdAt": "2022-05-31T02:02:20.195Z",
+  "__v": 3
+}

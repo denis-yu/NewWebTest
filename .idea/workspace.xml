@@ -2,41 +2,265 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f632cdb0-de16-4613-b3ab-2d3b90432320" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/testSuite/MCH/test_sanity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testSuite/testCase/code/.coveragerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testSuite/testCase/code/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testSuite/testLearned/test_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_case/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/yamlControl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NewWebTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewWebTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/9ab6eaa20390147.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/b8461afb04ad993f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/32104247f1c53434.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e901fae8f97eccff.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/51fe421d6133a190.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/59eeafbc474236d3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/5e67209aaef8f4af.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/68209222c4555af6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8e17cd1cc5f54541.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/cb5e4d06395784b8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/login.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/18ace9cedd924d2e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/9ad0e492743e1d35.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b84757903320e2e2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/dd1c10d0302ec253.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e02714fd6811b5af.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/fff41aa02c85b0a7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/export/mail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugins/behaviors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/plugins/behaviors/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugins/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/plugins/packages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugins/screen-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/plugins/screen-diff/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugins/screen-diff/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/environment.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/executors.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/executors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/inspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/inspect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/readconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/readconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/readelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/readelement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_object/medicare_censuspage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object/medicare_censuspage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver_mac64 (1).zip" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/chromedriver_mac64 (1).zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/geckodriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/geckodriver-v0.26.0-macos.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/geckodriver-v0.26.0-macos.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0.tar.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/CHANGES" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/CHANGES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/dependency_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/not-zip-safe" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/not-zip-safe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/requires.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/common/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/common/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/android/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/android/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/android/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/android/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/blackberry/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/blackberry/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/blackberry/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/blackberry/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/chrome/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/chrome/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/chrome/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/chrome/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/chrome/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/chrome/remote_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/chrome/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/chrome/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/chrome/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/chrome/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/action_chains.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/action_chains.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/action_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/action_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/input_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/input_device.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/interaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/interaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/key_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/key_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/key_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/key_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/mouse_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/mouse_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/pointer_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/pointer_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/pointer_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/pointer_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/alert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/by.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/by.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/desired_capabilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/desired_capabilities.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/html5/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/html5/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/html5/application_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/html5/application_cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/keys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/proxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/touch_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/touch_actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/edge/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/edge/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/edge/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/edge/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/edge/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/edge/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/edge/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/edge/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/extension_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/extension_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/firefox_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/firefox_binary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/firefox_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/firefox_profile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/remote_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/webdriver.xpi" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/webdriver.xpi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/webdriver_prefs.json" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/webdriver_prefs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/webelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/webelement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/ie/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/ie/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/ie/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/ie/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/ie/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/ie/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/ie/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/ie/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/opera/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/opera/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/opera/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/opera/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/opera/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/opera/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/phantomjs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/phantomjs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/phantomjs/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/phantomjs/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/phantomjs/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/phantomjs/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/errorhandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/errorhandler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/file_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/file_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/getAttribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/getAttribute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/isDisplayed.js" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/isDisplayed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/mobile.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/mobile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/remote_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/switch_to.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/switch_to.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/webelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/webelement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/safari/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/safari/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/safari/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/safari/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/safari/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/safari/remote_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/safari/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/safari/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/safari/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/safari/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/abstract_event_listener.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/abstract_event_listener.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/color.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/event_firing_webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/event_firing_webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/events.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/expected_conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/expected_conditions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/select.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/select.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/wait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/webkitgtk/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/webkitgtk/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/webkitgtk/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/webkitgtk/options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/webkitgtk/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/webkitgtk/service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/webkitgtk/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/webkitgtk/webdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/selenium-server-standalone-3.141.59.jar" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-server-standalone-3.141.59.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/webpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/webpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/report/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/08fa9cdd-c32a-4d64-972d-2bc3697c3caa-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/48343d7f-b873-402a-a109-c97b5d32140a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/5fa9e489-ea06-45b6-b83e-ef15eb913dc8-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/b884aef2-8f57-470a-b972-e496e7b5738b-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/df0a4c9b-6077-4820-8b46-04029b3b7d09-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Medicare/report/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/report/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/3b050665-79ba-4cbd-b77f-2b2a3d65e76a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/63065361-5a7f-4b94-a668-e44103ede116-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/677a9e11-9332-4af7-91e9-596f72f20595-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/ac7382ae-de35-4d90-86ef-cceeffcc3c0d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fe6f59a8-aa06-473e-8067-3c53d88fa8dc-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/report/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_case.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Medicare/test_ceneus.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/Medicare/test_ceneus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/Medicare/test_medicareCensusPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/MedicarePlanDetail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/conftest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/geckodriver.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/multiprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/multithread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/startDriver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/includes/updateTestCase.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/response.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/attachments/42fa3c2ff28fc6e3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/attachments/42fa3c2ff28fc6e3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/attachments/bda3f3b1b659c9f0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/attachments/bda3f3b1b659c9f0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/attachments/d309ef96ff665a26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/attachments/d309ef96ff665a26.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/test-cases/5a86c02192f6260c.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/test-cases/5a86c02192f6260c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/test-cases/b2fb893251058be1.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/test-cases/b2fb893251058be1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/test-cases/b71dfa701aa81f13.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/test-cases/b71dfa701aa81f13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/code/.coveragerc" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/code/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/code/cau.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/code/cau.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/code/test_conver.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/code/test_conver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/testPytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/testPytest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/test_comparePlanDetail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/test_pyTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/test_pyTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/test_pytest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/test_pytest1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testCase/testlog.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/testlog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/test_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/send_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/send_mail.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,18 +274,22 @@
     <SUITE FILE_PATH="coverage/NewWebTest$readelement.coverage" NAME="readelement Coverage Results" MODIFIED="1591952088328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/NewWebTest$medicare_censuspage.coverage" NAME="medicare_censuspage Coverage Results" MODIFIED="1591954741626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page_object" />
     <SUITE FILE_PATH="coverage/NewWebTest$logger.coverage" NAME="logger Coverage Results" MODIFIED="1591786333283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_shoppingFlow_TestShoppingflow_test_shoppingflow.coverage" NAME="pytest for shoppingFlow.TestShoppingflow.test_shoppingflow Coverage Results" MODIFIED="1597823556854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_pytest1_test_3.coverage" NAME="pytest for test_pytest1.test_3 Coverage Results" MODIFIED="1590128533346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_sanity_py.coverage" NAME="pytest in test_sanity.py Coverage Results" MODIFIED="1598609496026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_pytest1_py.coverage" NAME="pytest in test_pytest1.py Coverage Results" MODIFIED="1591352649444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_pyTest_TestMedicarePlanDetail.coverage" NAME="pytest for test_pyTest.TestMedicarePlanDetail Coverage Results" MODIFIED="1590128116543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$medicareCensusPage.coverage" NAME="medicareCensusPage Coverage Results" MODIFIED="1591781482634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes/Medicare" />
     <SUITE FILE_PATH="coverage/NewWebTest$test_medicarecensus.coverage" NAME="test_medicarecensus Coverage Results" MODIFIED="1589446935079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../NewMedicare" />
     <SUITE FILE_PATH="coverage/NewWebTest$run_case.coverage" NAME="run_case Coverage Results" MODIFIED="1591950077155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_sanity_TestShoppingflow.coverage" NAME="pytest for sanity.TestShoppingflow Coverage Results" MODIFIED="1598520752828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_testlog_py.coverage" NAME="pytest in testlog.py Coverage Results" MODIFIED="1590136737471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$readconfig.coverage" NAME="readconfig Coverage Results" MODIFIED="1591786068504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_ceneus_TestCensus_test_medicarecensus.coverage" NAME="pytest for test_ceneus.TestCensus.test_medicarecensus Coverage Results" MODIFIED="1592391000216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Medicare" />
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_comparePlanDetail_TestMedicarePlanDetail_test_medicare.coverage" NAME="pytest for test_comparePlanDetail.TestMedicarePlanDetail.test_medicare Coverage Results" MODIFIED="1591614021159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/testCase" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_search_TestSearch_test_002.coverage" NAME="pytest for test_search.TestSearch.test_002 Coverage Results" MODIFIED="1591954446324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_ceneus_py.coverage" NAME="pytest in test_ceneus.py Coverage Results" MODIFIED="1592391643291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Medicare" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_comparePlanDetail_TestMedicarePlanDetail_test_medicare.coverage" NAME="pytest for test_comparePlanDetail.TestMedicarePlanDetail.test_medicare Coverage Results" MODIFIED="1597746260346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/testCase" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_sanity_TestShoppingflow.coverage" NAME="pytest for test_sanity.TestShoppingflow Coverage Results" MODIFIED="1598609451130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
     <SUITE FILE_PATH="coverage/NewWebTest$comparePlanDetail.coverage" NAME="comparePlanDetail Coverage Results" MODIFIED="1590119231429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$testPytest.coverage" NAME="testPytest Coverage Results" MODIFIED="1589447053933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_ceneus_TestCensus.coverage" NAME="pytest for test_ceneus.TestCensus Coverage Results" MODIFIED="1592391344494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/Medicare" />
@@ -82,6 +310,9 @@
     <SUITE FILE_PATH="coverage/NewWebTest$startDriver.coverage" NAME="startDriver Coverage Results" MODIFIED="1591698189237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_comparePlanDetail_py.coverage" NAME="pytest in test_comparePlanDetail.py Coverage Results" MODIFIED="1591954763385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/testCase" />
     <SUITE FILE_PATH="coverage/NewWebTest$MedicarePlanDetail.coverage" NAME="MedicarePlanDetail Coverage Results" MODIFIED="1591614776054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_shoppingFlow_py.coverage" NAME="pytest in shoppingFlow.py Coverage Results" MODIFIED="1597830994084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
+    <SUITE FILE_PATH="coverage/NewWebTest$demo.coverage" NAME="demo Coverage Results" MODIFIED="1598609990363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_shoppingFlow_TestShoppingflow.coverage" NAME="pytest for shoppingFlow.TestShoppingflow Coverage Results" MODIFIED="1597830903604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
     <SUITE FILE_PATH="coverage/NewWebTest$multiprocessing.coverage" NAME="multiprocessing Coverage Results" MODIFIED="1589445843302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
     <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_pyTest_Test_MedicarePlanDetail_test_medicare.coverage" NAME="pytest for test_pyTest.Test_MedicarePlanDetail.test_medicare Coverage Results" MODIFIED="1590045220768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/includes" />
   </component>
@@ -104,75 +335,8 @@
     </expand>
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/webpage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1057">
-              <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Medicare/test_ceneus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-              <folding>
-                <element signature="e#46#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/includes/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="56" selection-start-line="56" selection-end-line="75" />
-              <folding>
-                <element signature="e#46#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page_object/medicare_censuspage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-              <folding>
-                <element signature="e#28#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -185,6 +349,9 @@
     <findStrings>
       <find>print</find>
       <find>_fail_picture</find>
+      <find>driver</find>
+      <find>drivers</find>
+      <find>browser</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,12 +360,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/includes/multithread.py" />
-        <option value="$PROJECT_DIR$/test/includes/multiprocess.py" />
-        <option value="$PROJECT_DIR$/../NewMedicare/test_medicarecensus.py" />
-        <option value="$PROJECT_DIR$/test/includes/testPytest.py" />
-        <option value="$PROJECT_DIR$/test/includes/updateTestCase.py" />
-        <option value="$PROJECT_DIR$/data/comparePlanDetails.csv" />
         <option value="$PROJECT_DIR$/test/includes/comparePlanDetail.py" />
         <option value="$PROJECT_DIR$/test/includes/test_comparePlanDetail.py" />
         <option value="$PROJECT_DIR$/test/includes/test_pyTest.py" />
@@ -230,7 +391,6 @@
         <option value="$PROJECT_DIR$/common/readelement.py" />
         <option value="$PROJECT_DIR$/page_element/medicare_censusPage" />
         <option value="$PROJECT_DIR$/common/inspect.py" />
-        <option value="$PROJECT_DIR$/page/webpage.py" />
         <option value="$PROJECT_DIR$/page_object/searchpage.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/tools/send_mail.py" />
@@ -239,18 +399,31 @@
         <option value="$PROJECT_DIR$/test/test_search.py" />
         <option value="$PROJECT_DIR$/config/conf.py" />
         <option value="$PROJECT_DIR$/page_element/medicarecensus.yaml" />
-        <option value="$PROJECT_DIR$/test/Medicare/test_ceneus.py" />
         <option value="$PROJECT_DIR$/page_object/medicare_censuspage.py" />
-        <option value="$PROJECT_DIR$/config/config.ini" />
-        <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py" />
+        <option value="$PROJECT_DIR$/test/Medicare/test_ceneus.py" />
+        <option value="$PROJECT_DIR$/page/webpage.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/testSuite/MCH/shoppingFlow.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/testSuite/MCH/sanity.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/testSuite/MCH/test_sanity.py" />
+        <option value="$PROJECT_DIR$/testSuite/MCH/demo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="y" value="25" />
+    <option name="width" value="1393" />
+    <option name="height" value="875" />
+  </component>
+  <component name="ProjectId" id="28vqNVRu62YiCindGwDyGuSCmpe" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -270,41 +443,30 @@
             <path>
               <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="page_element" type="462c0819:PsiDirectoryNode" />
+              <item name="testSuite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="testSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="MCH" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="testSuite" type="462c0819:PsiDirectoryNode" />
               <item name="Medicare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewWebTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewWebTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="Medicare" type="462c0819:PsiDirectoryNode" />
+              <item name="testSuite" type="462c0819:PsiDirectoryNode" />
+              <item name="testCase" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,36 +475,34 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/denisyu/workplace/test/NewWebTest&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testSuite/MCH" />
+      <recent name="$PROJECT_DIR$/tools" />
+      <recent name="$PROJECT_DIR$/test/includes" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/test/testCase" />
       <recent name="$PROJECT_DIR$/test" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test/includes" />
-      <recent name="$PROJECT_DIR$/data" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python tests.pytest in test_ceneus.py">
-    <configuration name="medicare_censuspage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.pytest for test_sanity.TestShoppingflow">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,12 +510,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testSuite/MCH" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_object/medicare_censuspage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testSuite/MCH/test_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -364,87 +524,110 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_ceneus.TestCensus" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for testSuite.MCH.test_sanity.TestShoppingflow" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Medicare" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testSuite/MCH" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ceneus.TestCensus&quot;" />
+      <option name="_new_target" value="&quot;testSuite.MCH.test_sanity.TestShoppingflow&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_ceneus.TestCensus.test_medicarecensus" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for testSuite.MCH.test_sanity.TestShoppingflow.test_shoppingflow" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Medicare" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testSuite/MCH" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_ceneus.TestCensus.test_medicarecensus&quot;" />
+      <option name="_new_target" value="&quot;testSuite.MCH.test_sanity.TestShoppingflow.test_shoppingflow&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_ceneus.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_login.TestLogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/Medicare" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/Medicare/test_ceneus.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_comparePlanDetail.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_sanity.TestShoppingflow" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test/testCase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testSuite/MCH" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py&quot;" />
+      <option name="_new_target" value="&quot;test_sanity.TestShoppingflow&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_sanity.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="NewWebTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testSuite/MCH" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testSuite/MCH/test_sanity.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.medicare_censuspage" />
-      <item itemvalue="Python tests.pytest in test_ceneus.py" />
-      <item itemvalue="Python tests.pytest in test_comparePlanDetail.py" />
-      <item itemvalue="Python tests.pytest for test_ceneus.TestCensus" />
-      <item itemvalue="Python tests.pytest for test_ceneus.TestCensus.test_medicarecensus" />
+      <item itemvalue="Python.demo" />
+      <item itemvalue="Python tests.pytest for testSuite.MCH.test_sanity.TestShoppingflow" />
+      <item itemvalue="Python tests.pytest for testSuite.MCH.test_sanity.TestShoppingflow.test_shoppingflow" />
+      <item itemvalue="Python tests.pytest for test_sanity.TestShoppingflow" />
+      <item itemvalue="Python tests.pytest in test_sanity.py" />
+      <item itemvalue="Python tests.pytest for test_login.TestLogin" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_ceneus.py" />
-        <item itemvalue="Python tests.pytest for test_ceneus.TestCensus" />
-        <item itemvalue="Python tests.pytest for test_ceneus.TestCensus.test_medicarecensus" />
-        <item itemvalue="Python tests.pytest in test_comparePlanDetail.py" />
-        <item itemvalue="Python.medicare_censuspage" />
+        <item itemvalue="Python tests.pytest for test_sanity.TestShoppingflow" />
+        <item itemvalue="Python tests.pytest in test_sanity.py" />
+        <item itemvalue="Python tests.pytest for testSuite.MCH.test_sanity.TestShoppingflow" />
+        <item itemvalue="Python tests.pytest for testSuite.MCH.test_sanity.TestShoppingflow.test_shoppingflow" />
+        <item itemvalue="Python tests.pytest for test_login.TestLogin" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -473,44 +656,70 @@
       <workItem from="1591697009320" duration="6518000" />
       <workItem from="1591777726789" duration="18356000" />
       <workItem from="1592217970819" duration="4947000" />
-      <workItem from="1597051889013" duration="7240000" />
+      <workItem from="1597051889013" duration="8228000" />
+      <workItem from="1597741191658" duration="14582000" />
+      <workItem from="1598608318625" duration="873000" />
+      <workItem from="1598609973978" duration="445000" />
+      <workItem from="1606817043448" duration="923000" />
+      <workItem from="1608276518972" duration="303000" />
+      <workItem from="1651745130310" duration="719000" />
+      <workItem from="1652107376760" duration="406000" />
+      <workItem from="1652155030284" duration="393000" />
+      <workItem from="1652233474516" duration="13198000" />
+      <workItem from="1652341279173" duration="1744000" />
+      <workItem from="1652406338250" duration="464000" />
+      <workItem from="1652425599038" duration="6466000" />
+      <workItem from="1652436218039" duration="1431000" />
+      <workItem from="1652580027273" duration="15339000" />
+      <workItem from="1652625375528" duration="2620000" />
+      <workItem from="1652686680705" duration="5401000" />
+      <workItem from="1653032524728" duration="3447000" />
+      <workItem from="1653036714426" duration="2497000" />
+      <workItem from="1653103306933" duration="2355000" />
+      <workItem from="1653207231844" duration="1064000" />
+      <workItem from="1653229044179" duration="380000" />
+      <workItem from="1653268787522" duration="360000" />
+      <workItem from="1653287328597" duration="3158000" />
+      <workItem from="1653378715282" duration="4337000" />
+      <workItem from="1654220749737" duration="808000" />
+      <workItem from="1654222529319" duration="674000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.12 at 18h 13m 05s.xml">
-      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
+    <history-entry file="pytest_for_test_sanity_TestShoppingflow - 2020.08.28 at 17h 24m 20s.xml">
+      <configuration name="pytest for test_sanity.TestShoppingflow" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.12 at 18h 15m 18s.xml">
-      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
+    <history-entry file="pytest_for_test_sanity_TestShoppingflow - 2020.08.28 at 17h 28m 59s.xml">
+      <configuration name="pytest for test_sanity.TestShoppingflow" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_ceneus_py - 2020.06.17 at 18h 06m 49s.xml">
-      <configuration name="pytest in test_ceneus.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_sanity_TestShoppingflow - 2020.08.28 at 17h 33m 10s.xml">
+      <configuration name="pytest for test_sanity.TestShoppingflow" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.17 at 18h 34m 44s.xml">
-      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
+    <history-entry file="pytest_in_test_sanity_py - 2020.08.28 at 17h 41m 21s.xml">
+      <configuration name="pytest in test_sanity.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.17 at 18h 41m 20s.xml">
-      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
+    <history-entry file="pytest_for_test_sanity_TestShoppingflow - 2020.08.28 at 17h 42m 07s.xml">
+      <configuration name="pytest for test_sanity.TestShoppingflow" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_ceneus_py - 2020.06.17 at 18h 44m 44s.xml">
-      <configuration name="pytest in test_ceneus.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_sanity_TestShoppingflow - 2020.08.28 at 17h 52m 17s.xml">
+      <configuration name="pytest for test_sanity.TestShoppingflow" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ceneus_TestCensus_test_medicarecensus - 2020.06.17 at 18h 50m 15s.xml">
-      <configuration name="pytest for test_ceneus.TestCensus.test_medicarecensus" configurationId="tests" />
+    <history-entry file="pytest_for_test_sanity_TestShoppingflow - 2020.08.28 at 18h 08m 58s.xml">
+      <configuration name="pytest for test_sanity.TestShoppingflow" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.17 at 18h 51m 09s.xml">
-      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
+    <history-entry file="pytest_for_test_sanity_TestShoppingflow - 2020.08.28 at 18h 10m 30s.xml">
+      <configuration name="pytest for test_sanity.TestShoppingflow" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_ceneus_TestCensus - 2020.06.17 at 18h 56m 12s.xml">
-      <configuration name="pytest for test_ceneus.TestCensus" configurationId="tests" />
+    <history-entry file="pytest_for_test_sanity_TestShoppingflow - 2020.08.28 at 18h 10m 52s.xml">
+      <configuration name="pytest for test_sanity.TestShoppingflow" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_ceneus_py - 2020.06.17 at 19h 01m 51s.xml">
-      <configuration name="pytest in test_ceneus.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_sanity_py - 2020.08.28 at 18h 11m 37s.xml">
+      <configuration name="pytest in test_sanity.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146900000" />
+    <option name="totallyTimeSpent" value="165733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -522,15 +731,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="47" y="25" width="1393" height="875" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868765" visible="true" weight="0.2546495" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49868765" visible="true" weight="0.20651369" />
       <window_info id="Structure" order="1" sideWeight="0.5013123" side_tool="true" weight="0.25749817" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.34120736" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996337" weight="0.4944238" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34076828" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996337" weight="0.19578686" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989011" weight="0.32342008" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,7 +748,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4996337" weight="0.32939634" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32939634" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50036633" side_tool="true" weight="0.4711286" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4996337" visible="true" weight="0.39157373" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4996337" weight="0.48818898" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4996337" weight="0.32939634" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -550,7 +759,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -561,81 +770,47 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/includes/multiprocess.py</url>
+          <url>file://$PROJECT_DIR$/testSuite/includes/multiprocess.py</url>
           <line>47</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/testCase/test_pytest1.py</url>
+          <url>file://$PROJECT_DIR$/testSuite/testCase/test_pytest1.py</url>
           <line>11</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/testCase/test_pytest1.py</url>
+          <url>file://$PROJECT_DIR$/testSuite/testCase/test_pytest1.py</url>
           <line>32</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/testCase/test_pytest1.py</url>
+          <url>file://$PROJECT_DIR$/testSuite/testCase/test_pytest1.py</url>
           <line>3</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/includes/Medicare/test_medicareCensusPage.py</url>
+          <url>file://$PROJECT_DIR$/testSuite/includes/Medicare/test_medicareCensusPage.py</url>
           <line>32</line>
           <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test/Medicare/test_ceneus.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_sanity_TestShoppingflow.coverage" NAME="pytest for test_sanity.TestShoppingflow Coverage Results" MODIFIED="1653444102506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_sanity1_TestShoppingflow.coverage" NAME="pytest for test_sanity1.TestShoppingflow Coverage Results" MODIFIED="1652689624569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_demo_Testdemo.coverage" NAME="pytest for test_demo.Testdemo Coverage Results" MODIFIED="1652239836819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
+    <SUITE FILE_PATH="coverage/NewWebTest$login.coverage" NAME="login Coverage Results" MODIFIED="1652625221175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_sanity1_TestShoppingflow_test_shoppingflow.coverage" NAME="pytest for test_sanity1.TestShoppingflow.test_shoppingflow Coverage Results" MODIFIED="1652689365233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_ceneus_TestCensus.coverage" NAME="pytest for test_ceneus.TestCensus Coverage Results" MODIFIED="1652239383134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/Medicare" />
+    <SUITE FILE_PATH="coverage/NewWebTest$yamlControl.coverage" NAME="yamlControl Coverage Results" MODIFIED="1652620373277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1652627477980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_login_TestLogin.coverage" NAME="pytest for test_login.TestLogin Coverage Results" MODIFIED="1652627768152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_demo_test_case.coverage" NAME="pytest for test_demo.test_case Coverage Results" MODIFIED="1652321438410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/testLearned" />
+    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_sanity_py.coverage" NAME="pytest in test_sanity.py Coverage Results" MODIFIED="1653040191958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/lib/python3.7/site-packages/_pytest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="263" selection-start-line="263" selection-end-line="263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="447" selection-start-line="447" selection-end-line="447" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/py/_path/local.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="700" selection-start-line="700" selection-end-line="700" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/_pytest/assertion/rewrite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/pluggy/hooks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="285" selection-start-line="285" selection-end-line="285" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.7/site-packages/pluggy/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/allure_commons/_allure.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
@@ -643,13 +818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.5/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py" />
     <entry file="file://$PROJECT_DIR$/data/comparePlanDetails.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -657,13 +826,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/multithread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/includes/multithread.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -671,13 +834,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/multiprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/includes/multiprocess.py" />
     <entry file="file:///usr/local/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -686,14 +843,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/includes/Medicare/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/test/testCase/run.py">
+    <entry file="file://$PROJECT_DIR$/testSuite/testCase/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testCase/test_pytest1.py">
+    <entry file="file://$PROJECT_DIR$/testSuite/testCase/test_pytest1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
@@ -703,26 +860,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/startDriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/includes/startDriver.py" />
     <entry file="file://$PROJECT_DIR$/common/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/page_object/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testCase/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+    <entry file="file://$PROJECT_DIR$/testSuite/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/__init__.py">
@@ -731,16 +876,7 @@
     <entry file="file://$PROJECT_DIR$/config/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/Medicare/test_medicareCensusPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test/includes/Medicare/test_medicareCensusPage.py" />
     <entry file="file://$PROJECT_DIR$/tools/logger.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -812,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_element/medicarecensus.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page_element/search.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -829,61 +958,19 @@
     <entry file="file://$PROJECT_DIR$/page/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_object/medicare_censuspage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testCase/allure-report/index.html">
+    <entry file="file://$PROJECT_DIR$/testSuite/testCase/allure-report/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="56" selection-start-line="56" selection-end-line="75" />
-          <folding>
-            <element signature="e#46#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/report/report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_search.py">
+    <entry file="file://$PROJECT_DIR$/test/report/report.html" />
+    <entry file="file://$PROJECT_DIR$/testSuite/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/MedicarePlanDetail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#28#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/webpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1057">
-          <caret line="74" column="43" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/testCase/allure-report/data/attachments/42fa3c2ff28fc6e3.txt">
+    <entry file="file://$PROJECT_DIR$/test/includes/MedicarePlanDetail.py" />
+    <entry file="file://$PROJECT_DIR$/testSuite/testCase/allure-report/data/attachments/42fa3c2ff28fc6e3.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/run_case.py">
@@ -893,32 +980,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py">
+    <entry file="file://$PROJECT_DIR$/test/includes/conftest.py" />
+    <entry file="file://$PROJECT_DIR$/page/webpage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        <state relative-caret-position="-545">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_element/medicarecensus.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_object/medicare_censuspage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSuite/MCH/report/report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSuite/MCH/shoppingFlow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" lean-forward="true" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSuite/testCase/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSuite/testCase/test_comparePlanDetail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
             <element signature="e#28#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/Medicare/test_ceneus.py">
+    <entry file="file://$PROJECT_DIR$/testSuite/Medicare/test_ceneus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="495">
+          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="26" />
           <folding>
             <element signature="e#46#56#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/includes/conftest.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="330">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#46#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSuite/MCH/test_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testSuite/MCH/test_sanity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="65" />
+          <folding>
+            <element signature="e#28#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

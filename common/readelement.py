@@ -7,7 +7,7 @@ __author__ = '1084502012@qq.com'
 
 import os
 import yaml
-from config.conf import ELEMENT_PATH
+from configs.conf import ELEMENT_PATH
 
 
 class Element:

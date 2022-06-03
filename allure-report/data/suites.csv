@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Aug 13 17:42:40 CST 2020","Thu Aug 13 17:42:53 CST 2020","12814","test.Medicare","test_ceneus","TestCensus","","","test_medicarecensus","get medicare quote"
-"passed","Thu Aug 13 17:42:34 CST 2020","Thu Aug 13 17:42:40 CST 2020","5933","test.Medicare","test_ceneus","TestCensus","","","test_openmedicaresite","open medicare site"

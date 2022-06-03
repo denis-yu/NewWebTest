@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testSuite.MCH.test_sanity",
+    "children" : [ {
+      "name" : "test_shoppingflow",
+      "uid" : "5a9c7a13086efec5",
+      "parentUid" : "e658bd8f4d3405f3d7242963f146601a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653040157124,
+        "stop" : 1653040166996,
+        "duration" : 9872
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testSuite.MCH.test_sanity"
+  } ]
+}

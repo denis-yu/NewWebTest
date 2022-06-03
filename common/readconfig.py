@@ -7,7 +7,7 @@ __author__ = 'Denis Yu'
 
 import os
 import configparser
-from config.conf import INI_PATH
+from configs.conf import INI_PATH
 
 HOST = 'HOST'
 

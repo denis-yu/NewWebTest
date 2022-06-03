@@ -3,12 +3,12 @@
 import sys
 
 sys.path.append('.')
-__author__ = '1084502012@qq.com'
+__author__ = 'Denis Yu'
 
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
-from config.conf import LOCATE_MODE
+from configs.conf import LOCATE_MODE
 from tools.times import sleep
 from tools.logger import log
 
@@ -22,7 +22,7 @@ class WebPage(object):
     """selenium基类"""
 
     def __init__(self, driver):
-        # self.driver = webdriver.Chrome()
+        # self.driverLibs = webdriver.Chrome()
         self.driver = driver
         self.timeout = 20
         self.wait = WebDriverWait(self.driver, self.timeout)

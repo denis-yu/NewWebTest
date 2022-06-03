@@ -7,7 +7,7 @@ __author__ = '1084502012@qq.com'
 
 import os
 import logging
-from config.conf import LOG_PATH
+from configs.conf import LOG_PATH
 from tools.times import datetime_strftime
 
 

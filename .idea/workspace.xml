@@ -1,265 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f632cdb0-de16-4613-b3ab-2d3b90432320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testSuite/MCH/test_sanity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSuite/testCase/code/.coveragerc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSuite/testCase/code/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSuite/testLearned/test_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_case/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/yamlControl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NewWebTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewWebTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testSuite/MCH/test_sb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/51fe421d6133a190.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/59eeafbc474236d3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/5e67209aaef8f4af.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/68209222c4555af6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/8e17cd1cc5f54541.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/cb5e4d06395784b8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/login.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/18ace9cedd924d2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/9ad0e492743e1d35.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/b84757903320e2e2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/dd1c10d0302ec253.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/e02714fd6811b5af.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/fff41aa02c85b0a7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/export/mail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/behaviors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/plugins/behaviors/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/plugins/packages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/screen-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/plugins/screen-diff/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/plugins/screen-diff/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/plugins/screen-diff/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/environment.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/executors.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/executors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/inspect.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/inspect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/readconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/readconfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/readelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/readelement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver_mac64 (1).zip" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/chromedriver_mac64 (1).zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/geckodriver" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/geckodriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/geckodriver-v0.26.0-macos.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/geckodriver-v0.26.0-macos.tar.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0.tar.gz" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0.tar.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/CHANGES" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/CHANGES" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/MANIFEST.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/README.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/dependency_links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/not-zip-safe" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/not-zip-safe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/requires.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium.egg-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/common/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/common/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/android/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/android/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/android/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/android/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/blackberry/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/blackberry/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/blackberry/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/blackberry/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/chrome/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/chrome/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/chrome/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/chrome/options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/chrome/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/chrome/remote_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/chrome/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/chrome/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/chrome/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/chrome/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/action_chains.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/action_chains.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/action_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/action_builder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/input_device.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/input_device.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/interaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/interaction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/key_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/key_actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/key_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/key_input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/mouse_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/mouse_button.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/pointer_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/pointer_actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/actions/pointer_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/actions/pointer_input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/alert.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/alert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/by.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/by.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/desired_capabilities.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/desired_capabilities.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/html5/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/html5/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/html5/application_cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/html5/application_cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/keys.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/keys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/proxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/proxy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/touch_actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/touch_actions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/common/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/common/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/edge/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/edge/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/edge/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/edge/options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/edge/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/edge/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/edge/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/edge/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/amd64/x_ignore_nofocus.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/extension_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/extension_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/firefox_binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/firefox_binary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/firefox_profile.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/firefox_profile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/remote_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/webdriver.xpi" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/webdriver.xpi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/webdriver_prefs.json" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/webdriver_prefs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/webelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/webelement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/firefox/x86/x_ignore_nofocus.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/ie/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/ie/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/ie/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/ie/options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/ie/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/ie/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/ie/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/ie/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/opera/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/opera/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/opera/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/opera/options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/opera/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/opera/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/phantomjs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/phantomjs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/phantomjs/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/phantomjs/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/phantomjs/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/phantomjs/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/command.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/errorhandler.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/errorhandler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/file_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/file_detector.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/getAttribute.js" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/getAttribute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/isDisplayed.js" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/isDisplayed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/mobile.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/mobile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/remote_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/switch_to.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/switch_to.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/remote/webelement.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/remote/webelement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/safari/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/safari/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/safari/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/safari/permissions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/safari/remote_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/safari/remote_connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/safari/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/safari/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/safari/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/safari/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/abstract_event_listener.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/abstract_event_listener.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/color.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/event_firing_webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/event_firing_webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/events.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/events.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/expected_conditions.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/expected_conditions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/select.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/select.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/support/wait.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/support/wait.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/webkitgtk/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/webkitgtk/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/webkitgtk/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/webkitgtk/options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/webkitgtk/service.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/webkitgtk/service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/selenium/webdriver/webkitgtk/webdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/selenium/webdriver/webkitgtk/webdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/setup.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-3.141.0/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-3.141.0/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/selenium-server-standalone-3.141.59.jar" beforeDir="false" afterPath="$PROJECT_DIR$/driverLibs/selenium-server-standalone-3.141.59.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/webpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/webpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/3b050665-79ba-4cbd-b77f-2b2a3d65e76a-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/63065361-5a7f-4b94-a668-e44103ede116-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/677a9e11-9332-4af7-91e9-596f72f20595-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/ac7382ae-de35-4d90-86ef-cceeffcc3c0d-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/fe6f59a8-aa06-473e-8067-3c53d88fa8dc-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/report/report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_case.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Medicare/test_ceneus.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/Medicare/test_ceneus.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/configs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/Medicare/test_medicareCensusPage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/MedicarePlanDetail.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/geckodriver.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/multiprocess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/multithread.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/startDriver.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/includes/updateTestCase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/response.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/attachments/42fa3c2ff28fc6e3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/attachments/42fa3c2ff28fc6e3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/attachments/bda3f3b1b659c9f0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/attachments/bda3f3b1b659c9f0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/attachments/d309ef96ff665a26.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/attachments/d309ef96ff665a26.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/behaviors.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/categories.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/packages.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/suites.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/test-cases/5a86c02192f6260c.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/test-cases/5a86c02192f6260c.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/test-cases/b2fb893251058be1.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/test-cases/b2fb893251058be1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/test-cases/b71dfa701aa81f13.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/test-cases/b71dfa701aa81f13.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/data/timeline.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/export/influxDbData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/export/mail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/export/prometheusData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/history/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/history/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/history/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/plugins/behaviors/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/plugins/packages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/plugins/screen-diff/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/plugins/screen-diff/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/behaviors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/categories-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/categories.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/duration-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/environment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/executors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/severity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/status-chart.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/allure-report/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/code/.coveragerc" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/code/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/code/cau.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/code/cau.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/code/test_conver.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/code/test_conver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/testPytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/testPytest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/test_comparePlanDetail.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/test_comparePlanDetail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/test_pyTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/test_pyTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/test_pytest1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/test_pytest1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testCase/testlog.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/testCase/testlog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/test_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/send_mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/send_mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_element/search.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,8 +86,10 @@
     </expand>
     <select />
   </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" module-name="NewWebTest" is-module-sdk="true">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+    <option name="myUseModuleSdk" value="true" />
+    <option name="myModuleName" value="NewWebTest" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -486,9 +239,17 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/denisyu/workplace/test/NewWebTest&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   }
 }</component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="NewWebTest" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="NewWebTest" />
+      </console-settings>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/testSuite/MCH" />
@@ -683,6 +444,11 @@
       <workItem from="1653378715282" duration="4337000" />
       <workItem from="1654220749737" duration="808000" />
       <workItem from="1654222529319" duration="674000" />
+      <workItem from="1654263918548" duration="1858000" />
+      <workItem from="1654314345523" duration="620000" />
+      <workItem from="1654318903858" duration="1400000" />
+      <workItem from="1654442093858" duration="351000" />
+      <workItem from="1654511914056" duration="2535000" />
     </task>
     <servers />
   </component>
@@ -796,19 +562,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_sanity_TestShoppingflow.coverage" NAME="pytest for test_sanity.TestShoppingflow Coverage Results" MODIFIED="1653444102506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_sanity1_TestShoppingflow.coverage" NAME="pytest for test_sanity1.TestShoppingflow Coverage Results" MODIFIED="1652689624569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_demo_Testdemo.coverage" NAME="pytest for test_demo.Testdemo Coverage Results" MODIFIED="1652239836819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
-    <SUITE FILE_PATH="coverage/NewWebTest$login.coverage" NAME="login Coverage Results" MODIFIED="1652625221175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_sanity1_TestShoppingflow_test_shoppingflow.coverage" NAME="pytest for test_sanity1.TestShoppingflow.test_shoppingflow Coverage Results" MODIFIED="1652689365233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_ceneus_TestCensus.coverage" NAME="pytest for test_ceneus.TestCensus Coverage Results" MODIFIED="1652239383134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/Medicare" />
-    <SUITE FILE_PATH="coverage/NewWebTest$yamlControl.coverage" NAME="yamlControl Coverage Results" MODIFIED="1652620373277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_login_py.coverage" NAME="pytest in test_login.py Coverage Results" MODIFIED="1652627477980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_login_TestLogin.coverage" NAME="pytest for test_login.TestLogin Coverage Results" MODIFIED="1652627768152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_for_test_demo_test_case.coverage" NAME="pytest for test_demo.test_case Coverage Results" MODIFIED="1652321438410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/testLearned" />
-    <SUITE FILE_PATH="coverage/NewWebTest$pytest_in_test_sanity_py.coverage" NAME="pytest in test_sanity.py Coverage Results" MODIFIED="1653040191958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testSuite/MCH" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Library/Python/3.7/lib/python/site-packages/allure_commons/_allure.py">

@@ -7,7 +7,7 @@ import uuid
 import pytest
 
 sys.path.append('.')
-__author__ = 'denis.yu@suryani.cn'
+__author__ = 'Denis Yu'
 
 import pytest
 from py._xmlgen import html
@@ -15,6 +15,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 driver = None
+
 
 @pytest.fixture(scope='session', autouse=True)
 def browser(request):
@@ -61,7 +62,6 @@ def browser(request):
 #             pass
 #         report.extra = extra
 
-
 # @pytest.mark.optionalhook
 # def pytest_html_results_table_header(cells):
 #     cells.insert(1, html.th('用例名称'))
@@ -81,7 +81,6 @@ def browser(request):
 #     if report.passed:
 #         del data[:]
 #         data.append(html.div('通过的用例未捕获日志输出.', class_='empty log'))
-
 
 def _capture_screenshot(driver):
     # fileName = configs.screenPath + '/' + str(uuid.uuid1()) + '.png'

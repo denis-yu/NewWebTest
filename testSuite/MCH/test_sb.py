@@ -12,28 +12,28 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
 
 class TestMedicare():
-    def setup_method(self, method):
-        self.driver = webdriver.Chrome()
-        self.vars = {}
+    # def setup_method(self, method):
+    #     browser = webdriver.Chrome()
+    #     self.vars = {}
+    # 
+    # def teardown_method(self, method):
+    #     browser.quit()
 
-    def teardown_method(self, method):
-        self.driver.quit()
-
-    def test_medicare(self):
-        self.driver.get("https://pengujian.healthpocket.com/")
-        self.driver.set_window_size(1246, 796)
-        self.driver.find_element(By.ID, "location").click()
-        self.driver.find_element(By.ID, "location").send_keys("60601")
-        self.driver.find_element(By.LINK_TEXT, "60601 - Cook County, IL").click()
-        self.driver.find_element(By.ID, "planTypeDropdown").click()
-        self.driver.find_element(By.LINK_TEXT, "Small Business Insurance").click()
-        self.driver.find_element(By.ID, "findPlans").click()
-        self.driver.find_element(By.CSS_SELECTOR, ".js-filter-plan-type-toggle").click()
-        self.driver.find_element(By.CSS_SELECTOR,
+    def test_medicare(self,browser):
+        browser.get("https://pengujian.healthpocket.com/")
+        browser.set_window_size(1246, 796)
+        browser.find_element(By.ID, "location").click()
+        browser.find_element(By.ID, "location").send_keys("60601")
+        browser.find_element(By.LINK_TEXT, "60601 - Cook County, IL").click()
+        browser.find_element(By.ID, "planTypeDropdown").click()
+        browser.find_element(By.LINK_TEXT, "Small Business Insurance").click()
+        browser.find_element(By.ID, "findPlans").click()
+        browser.find_element(By.CSS_SELECTOR, ".js-filter-plan-type-toggle").click()
+        browser.find_element(By.CSS_SELECTOR,
                                  "#js-filter-plan-type-popover .l-em-list__item:nth-child(1) .btn").click()
-        self.driver.find_element(By.CSS_SELECTOR, "#js-filter-plan-type-popover .c-census-popover__button").click()
-        self.driver.find_element(By.LINK_TEXT, "Select").click()
-        assert self.driver.find_element(By.CSS_SELECTOR,
+        browser.find_element(By.CSS_SELECTOR, "#js-filter-plan-type-popover .c-census-popover__button").click()
+        browser.find_element(By.LINK_TEXT, "Select").click()
+        assert browser.find_element(By.CSS_SELECTOR,
                                         ".c-plan-apply_h1").text == "Aetna Health Maintenance Organization"
 
 # -- coding: utf-8 --

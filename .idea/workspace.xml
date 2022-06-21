@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f632cdb0-de16-4613-b3ab-2d3b90432320" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/testSuite/MCH/test_sb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_element/search.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testSuite/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,14 +230,14 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/denisyu/workplace/test/NewWebTest&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/denisyu/workplace/test/NewWebTest",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="NewWebTest" is-module-sdk="true">
@@ -262,7 +258,7 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_sanity.TestShoppingflow">
+  <component name="RunManager" selected="Python tests.pytest for test_sb.TestMedicare">
     <configuration name="demo" type="PythonConfigurationType" factoryName="Python">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,23 +315,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_login.TestLogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="NewWebTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_login.TestLogin&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for test_sanity.TestShoppingflow" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="NewWebTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -350,6 +329,22 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_sanity.TestShoppingflow&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_sb.TestMedicare" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="NewWebTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testSuite/MCH" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_sb.TestMedicare&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -372,19 +367,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.demo" />
+      <item itemvalue="Python tests.pytest for test_sb.TestMedicare" />
       <item itemvalue="Python tests.pytest for testSuite.MCH.test_sanity.TestShoppingflow" />
       <item itemvalue="Python tests.pytest for testSuite.MCH.test_sanity.TestShoppingflow.test_shoppingflow" />
       <item itemvalue="Python tests.pytest for test_sanity.TestShoppingflow" />
       <item itemvalue="Python tests.pytest in test_sanity.py" />
-      <item itemvalue="Python tests.pytest for test_login.TestLogin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_sb.TestMedicare" />
         <item itemvalue="Python tests.pytest for test_sanity.TestShoppingflow" />
         <item itemvalue="Python tests.pytest in test_sanity.py" />
         <item itemvalue="Python tests.pytest for testSuite.MCH.test_sanity.TestShoppingflow" />
         <item itemvalue="Python tests.pytest for testSuite.MCH.test_sanity.TestShoppingflow.test_shoppingflow" />
-        <item itemvalue="Python tests.pytest for test_login.TestLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -526,6 +521,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
